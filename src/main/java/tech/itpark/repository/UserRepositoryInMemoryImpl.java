@@ -36,6 +36,7 @@ public class UserRepositoryInMemoryImpl implements UserRepository {
   public boolean removeById(Long id) {
     if (Optional.ofNullable(idToEntity.get(id)).isPresent()) {
       idToEntity.get(id).setRemoved(true);
+      return true;
     }
     return false;
   }
