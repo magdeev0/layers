@@ -1,6 +1,6 @@
 package tech.itpark;
 
-import tech.itpark.entity.UserEntity;
+/*import tech.itpark.entity.UserEntity;
 import tech.itpark.repository.UserRepository;
 import tech.itpark.repository.UserRepositoryInMemoryImpl;
 import tech.itpark.repository.UserRepositoryJDBCImpl;
@@ -11,7 +11,7 @@ import java.sql.*;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Optional;
+import java.util.Optional;*/
 
 public class Main {
   public static void main(String[] args) {
