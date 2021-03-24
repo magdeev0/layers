@@ -21,7 +21,7 @@ public class Main {
 
     // JDBC connection URL
     // TODO: get from environment
-    String dsn = "jdbc:postgresql://localhost:5400/appdb?user=app&password=pass";
+   /* String dsn = "jdbc:postgresql://localhost:5400/appdb?user=app&password=pass";
     try (Connection connection = DriverManager.getConnection(dsn)) {
       UserRepository repository = new UserRepositoryJDBCImpl(connection);
       UserService service = new UserServiceDefaultImpl(repository);
@@ -52,6 +52,6 @@ public class Main {
     }
     UserRepository repo = new UserRepositoryInMemoryImpl();
     repo.save(new UserEntity(1, "login", "pass", "secret", "name", new HashSet<>(Arrays.asList("a", "b")), false, 4444));
-    System.out.println(Optional.ofNullable(repo.findById(2L).get().getName()));
+    System.out.println(Optional.ofNullable(repo.findById(2L).get().getName()));*/
   }
 }
